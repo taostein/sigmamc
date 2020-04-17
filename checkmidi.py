@@ -16,6 +16,8 @@ import sys
 # E5 (midi 64) not OK
 # F5 (midi 65) OK
 
+
+
 mid = MidiFile(sys.argv[1])
 
 note_list = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
